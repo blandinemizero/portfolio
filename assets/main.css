@@ -1,24 +1,49 @@
 
+/* FONTS */
+@font-face {
+  font-family: "Brown-Bold";
+  src: local("Brown-Bold"), url("fonts/Brown-Bold.woff") format("woff2");
+}
+
 /* NAV */
 .nav {
   height: 80px;
-  width: 50px;
-  padding-right: 13px;
+  width: 70px;
+  padding-right: 10px;
   border-right: 6px solid #000;
-  line-height: 23px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
   position: absolute;
-  left: 20px;
+  left: 8px;
   top: 20px;
 }
 
 .nav a {
-
+  line-height: 23.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Brown-Bold", Verdana;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #000;
 }
 
+/* LOGO */
+.logo {
+  width: 350px;
+  position: absolute;
+  left: 10.5%;
+  top: 5%;
+}
+
+.profession {
+  width: 90px;
+  position: absolute;
+  left: 350px;
+  top: 90px;
+}
 /* MAIN */
 .main {
   height: 100vh;
