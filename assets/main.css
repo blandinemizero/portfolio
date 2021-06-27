@@ -1,0 +1,26 @@
+
+/* NAV */
+.nav {
+  height: 80px;
+  width: 50px;
+  padding-right: 13px;
+  border-right: 6px solid #000;
+  line-height: 23px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.nav a {
+
+}
+
+/* MAIN */
+.main {
+  height: 100vh;
+  background: #ededed;
+}
