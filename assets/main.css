@@ -1,8 +1,25 @@
+/* RESETS */
+@import url("reset.css");
 
-/* FONTS */
+/* IMPORTED FONTS */
 @font-face {
   font-family: "Brown-Bold";
   src: local("Brown-Bold"), url("fonts/Brown-Bold.woff") format("woff2");
+}
+
+/* HOMEPAGE */
+.homepage-main {
+  height: 100vh;
+  background: #000;
+}
+
+.title{
+  font-family: Brown-Bold;
+  font-size: 150px;
+  color: #fff;
+  position: absolute;
+  left: 9%;
+  top: 30%;
 }
 
 /* NAV */
@@ -45,7 +62,3 @@
   top: 90px;
 }
 /* MAIN */
-.main {
-  height: 100vh;
-  background: #ededed;
-}
