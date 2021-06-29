@@ -8,7 +8,19 @@
 }
 
 /* HOMEPAGE */
-.homepage-main {
+.home-header {
+  position: absolute;
+  margin: 10px;
+}
+
+.home-nav-links {
+  color: #fff;
+  font-family: Brown-Bold;
+  margin: 10px;
+  text-transform: lowercase;
+}
+
+.home-main {
   height: 100vh;
   background: #000;
 }
@@ -18,11 +30,13 @@
   font-size: 150px;
   color: #fff;
   position: absolute;
-  left: 9%;
-  top: 30%;
+  left: 3%;
+  top: 20%;
+  text-transform: lowercase;
+  letter-spacing: 0;
 }
 
-/* NAV */
+/* NAV INDEX
 .nav {
   height: 80px;
   width: 70px;
@@ -46,6 +60,7 @@
   letter-spacing: 1px;
   color: #000;
 }
+*/
 
 /* LOGO */
 .logo {
