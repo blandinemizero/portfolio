@@ -36,10 +36,15 @@
   letter-spacing: 0;
 }
 
-/* NAV INDEX
-.nav {
+/* INDEX */
+.index-header {
+  height: 20vh;
+  background: #f7f7f7;
+}
+.index-nav {
   height: 80px;
   width: 70px;
+  margin-left: 10px;
   padding-right: 10px;
   border-right: 6px solid #000;
   display: flex;
@@ -51,29 +56,106 @@
   top: 20px;
 }
 
-.nav a {
+.index-nav-links {
   line-height: 23.5px;
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Brown-Bold", Verdana;
-  font-size: 14px;
+  font-size: 12.4px;
   letter-spacing: 1px;
   color: #000;
 }
-*/
 
-/* LOGO */
+.index-main {
+  height: 80vh;
+  background: #f7f7f7;
+}
+
 .logo {
-  width: 350px;
+  font-family: Brown-Bold;
+  font-size: 80px;
+  margin-left: 18.5px;
   position: absolute;
-  left: 10.5%;
-  top: 5%;
+  left: 8.5%;
+  top: 2.5%;
 }
 
-.profession {
-  width: 90px;
+.index-nav-links.nav-about {
   position: absolute;
-  left: 350px;
-  top: 90px;
+  left: 900px;
 }
-/* MAIN */
+
+.github-icon {
+  height: 20px;
+  position: absolute;
+  left: 913px;
+  top: 6px;
+}
+
+.index-sidebar {
+  width: 10vw;
+  padding: 20px;
+}
+
+.index-list {
+  line-height: 22px;
+}
+
+.index-div {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.index-content {
+  width: 80vw;
+  padding: 6px;
+  display: flex;
+  flex-direction: row;
+}
+
+.index-content,
+.index-sidebar,
+.index-content-blurb,
+.index-content-thumbnails {
+  border: 2px solid #000;
+}
+
+.thumbnails {
+  width: 165px;
+  background: #cecece;
+}
+
+.thumbnails-img {
+  height: 100px;
+  border-left: 1.5px solid grey;
+}
+
+.thumbnails-caption {
+  margin-bottom: 13px;
+}
+
+.index-content-blurb {
+  width: 30%;
+  margin-right: 3%;
+  text-align: center;
+}
+
+.index-content-title {
+  font-size: 50px;
+  margin: 50px 0;
+}
+
+.index-content-info {
+  font-size: 20px;
+}
+
+.index-content-thumbnails {
+  width: 70%;
+  padding: 12px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 12px;
+  justify-content: space-evenly;
+}
